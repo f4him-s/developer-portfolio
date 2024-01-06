@@ -9,6 +9,8 @@ body {
 .text-primary-color {
   color: #fd6e0a;
 }
+
+
 .btn-primary {
   background-color: #fd6e0a;
   border-radius: 5px;
@@ -18,6 +20,17 @@ body {
   color: #fff;
   font-weight: 700;
 }
+
+.btn-primary:hover{
+    border-radius: 5px;
+    border: 1px solid #fd6e0a;
+    padding: 15px 35px;
+    font-size: 20px;
+    color: #fd6e0a;
+    font-weight: 700;
+    background: none;
+}
+
 .btn-secondary {
   border-radius: 5px;
   border: 1px solid #fd6e0a;
@@ -26,6 +39,15 @@ body {
   color: #fd6e0a;
   font-weight: 700;
   background: none;
+}
+.btn-secondary:hover{
+    background-color: #fd6e0a;
+    border-radius: 5px;
+    border: 0;
+    padding: 15px 35px;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 700;
 }
 .section-title {
   color: #181818;
