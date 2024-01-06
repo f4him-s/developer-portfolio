@@ -168,5 +168,44 @@ main {
   color: #474747;
   font-size: 30px;
   font-weight: 700;
+  margin-top: 110px;
+  margin-bottom: 30px;
+}
+.resume-container {
+  display: flex;
+  gap: 50px;
+  justify-content: space-around;
+}
+.resume-item-title {
+  color:  #474747;
+  font-size: 25px;
+  font-weight: 700;
 }
 
+.resume-item-institute{
+    color:  #757575;
+font-size: 20px;
+font-weight: 600;
+padding-top: 10px;
+}
+.resume-description{
+    padding-top: 20px;
+    padding-bottom: 30px;
+width: 511px;
+color:  #757575;
+font-size: 16px;
+font-weight: 400;
+line-height: 28px;
+}
+.resume>.btn-primary{
+    display: flex;
+justify-content: center;
+margin: 0 auto;
+}
+/* Footer style */
+footer{
+    display: flex;
+    background: #FFF8F3;
+    padding: 130px 200px;
+    margin-top: 100px;
+}
