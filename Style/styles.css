@@ -177,35 +177,64 @@ main {
   justify-content: space-around;
 }
 .resume-item-title {
-  color:  #474747;
+  color: #474747;
   font-size: 25px;
   font-weight: 700;
 }
 
-.resume-item-institute{
-    color:  #757575;
-font-size: 20px;
-font-weight: 600;
-padding-top: 10px;
+.resume-item-institute {
+  color: #757575;
+  font-size: 20px;
+  font-weight: 600;
+  padding-top: 10px;
 }
-.resume-description{
-    padding-top: 20px;
-    padding-bottom: 30px;
-width: 511px;
-color:  #757575;
-font-size: 16px;
-font-weight: 400;
-line-height: 28px;
+.resume-description {
+  padding-top: 20px;
+  padding-bottom: 30px;
+  width: 511px;
+  color: #757575;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
 }
-.resume>.btn-primary{
-    display: flex;
-justify-content: center;
-margin: 0 auto;
+.resume > .btn-primary {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
 }
 /* Footer style */
-footer{
-    display: flex;
-    background: #FFF8F3;
-    padding: 130px 200px;
-    margin-top: 100px;
+footer {
+  display: flex;
+  background: #fff8f3;
+  padding: 130px 200px;
+  margin-top: 100px;
+  gap: 100px;
+}
+.footer-column {
+  width: 50%;
+}
+.footer-column-title {
+  color: #181818;
+  font-size: 35px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.footer-column-description {
+  color: #474747;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px; /* 175% */
+  margin-bottom: 30px;
+}
+.contact-form input[type="text"], .contact-form input[type="email"],
+textarea {
+  display: block;
+  margin-bottom: 25px;
+  padding: 18px 30px 18px 18px;
+  color:  #757575;
+  font-size: 16px;
+  font-weight: 400;
+  border: 0;
+  border-radius: 5px;
+  width:60%
 }
