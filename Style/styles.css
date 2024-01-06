@@ -27,6 +27,20 @@ body {
   font-weight: 700;
   background: none;
 }
+.section-title {
+  color: #181818;
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
+}
+.section-description {
+  color:#757575;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  padding: 20px 70px;
+}
 
 /* Nav related style */
 
@@ -59,7 +73,6 @@ header {
   background-image: url(../images/header_bg.png), url(../images/developer.png);
   background-repeat: no-repeat;
   background-position: bottom right, bottom left;
- 
 }
 .banner {
   padding: 30px 30px 0px 200px;
@@ -88,6 +101,15 @@ header {
   line-height: 30px;
   margin-bottom: 30px;
 }
-.banner-content{
-    max-width: 585px;
+.banner-content {
+  max-width: 585px;
+}
+
+/* Main Section Styles */
+/* About Section */
+.about {
+  padding: 130px 150px;
+  border-radius: 10px;
+  background: #fff8f3;
+  margin: 130px 200px;
 }
